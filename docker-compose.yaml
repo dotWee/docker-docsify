@@ -9,4 +9,4 @@ services:
         - ${PWD}/docs:/docs
       ports:
         - 3000:3000
-      command: docsify serve .
+      command: docsify serve /docs
