@@ -1,4 +1,4 @@
-FROM node:8.16.1-alpine
+FROM node:lts-alpine
 
 RUN npm i docsify-cli -g
 
