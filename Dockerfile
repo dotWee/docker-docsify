@@ -4,6 +4,6 @@ RUN npm i docsify-cli -g
 
 EXPOSE 3000
 
-WORKDIR /home/node
+WORKDIR /docs
 
-COPY src/ .
+COPY docs/ .

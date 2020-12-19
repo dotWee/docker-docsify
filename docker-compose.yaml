@@ -6,7 +6,7 @@ services:
         context: .
         dockerfile: Dockerfile
       volumes:
-        - ${PWD}/src:/home/node
+        - ${PWD}/docs:/docs
       ports:
         - 3000:3000
       command: docsify serve .
